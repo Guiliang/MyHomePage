@@ -1,12 +1,151 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Galen-homepage </title>
+        <link rel="stylesheet" href="./styles/cv-style.css" type="text/css" />
+        
+        
+        <script type="text/javascript">
 
-</body>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+
+            // Modal Image Gallery
+            function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "block";
+              var captionText = document.getElementById("caption");
+              captionText.innerHTML = element.alt;
+            }
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-22933793-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+            
+            </script>
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            
+            <div id="container-inner">
+                
+                <div id="header">
+                    <h1><a href="#" style="float:left;margin:15px;margin-left:150px;">Galen (Guiliang) Liu</a></h1>
+                <!--<p style="float:left">SFU Machine Learning lab</p>-->
+                    
+                    <div class="clear"></div>
+                </div><!-- end header -->
+                <h3 align="center" style="color:blue"><b>**Seeking Research Internship**</b> </h3>
+                <div id="nav">
+                    <ul> <li><a href="#about-me" onclick="w3_close()">About Me</a> </li>
+                        <li><a href="#Research" onclick="w3_close()">Research</a> </li>
+                        <li><a href="#Paper-List" onclick="w3_close()">Paper List</a> </li>
+                        <li><a href="#Contact" onclick="w3_close()">Contact</a> </li>
+                    </ul>
+
+                </div>
+
+                <img src="./images/photo.png" style="max-height:150px;float:left;margin:15px;margin-left:100px;" alt="photo">
+                <div style="float:left;margin:5px;">
+                    <p>PhD Candidate<br>
+                        <a href="http://www.cs.sfu.ca/">School of Computing Science</a><br>
+                        <a href="http://en.wikipedia.org/wiki/Simon_Fraser_University">Simon Fraser University</a><br>
+                        Burnaby, B.C. Canada V5A 1S6
+                        <!--<br>-->
+                        <!--Phone: +1-778-896-2533 <br>-->
+                        <!--Email: liuglace@gmail.com-->
+                    </p>
+                    <b>Research Interesting:</b>
+                    <ul class="ul1">
+                        <li>Deep Reinforcement Learning</li>
+                        <li>Sequential Data Modeling</li>
+                    </ul>
+                </div>
+
+
+
+                
+                <div id="main">
+                    <div id="content">
+                        <div id="about-me">
+                            <h2> About Me </h2>
+                            <p>I am an PhD Candidate at <a href="http://www.cs.sfu.ca/" target="blank">School of Computing Science</a> at Simon Fraser University.
+                               Supervised by Professor <a href="http://www.cs.sfu.ca/~oschulte/">Oliver Schulte </a>, I have spending three year working on the Deep Reinforcement Learning (DRL)
+                                and it's novel application in the <a href="https://en.wikipedia.org/wiki/Sports_analytics"> Sport Analytic </a>.
+                                We have built a DRL-based player ranking system and developed a novel metric to estimated the value of players, using the player-by-play Video Tracking dataset provided by <a rel="http://sportlogiq.com/en/">sportlogiq</a>.
+                            </p>
+
+                            <p> I received my Bachelor degree at <a href="https://en.scut.edu.cn/" target="blank"> South China University of Technology</a>, major in Computing Science.
+
+                            </p>
+                            <!--<p>I am an Assistant Professor of Computer Science and Engineering (CSE) at the <a  href="https://www.youtube.com/watch?time_continue=82&v=5copEH7Z_T0" target="blank">University of Michigan</a>. I currently head the MLD<sup>3</sup> research group. My primary research interests lie at the intersection of machine learning and healthcare. The overarching goal of my research agenda is to develop the computational methods needed to help organize, process, and transform data into actionable knowledge. To find out more about my research interests and what the group is currently working on, please follow the "Research" link above.</p>-->
+
+                            <!--<p> I received my PhD in 2014 from MIT. At MIT, I worked with Prof. John Guttag in the Computer Science and Artificial Intelligence Lab (CSAIL). My PhD research focused on developing accurate patient risk-stratification approaches that leverage spatiotemporal patient data, with the ultimate goal of discovering information that can be used to reduce the incidence of healthcare-associated infections.</p>-->
+                        </div>
+
+                        <div id="Research">
+                            <h2> Research </h2>
+
+                        </div>
+
+                        <div id="Paper-List">
+                            <h2>Paper List</h2>
+                            <ul class="ul2">
+                                <li>January 2018: MLHC 2018 will be held at Stanford University in August. Submission deadline is April 20. <a href="https://www.mlforhc.org/" target="blank">See conference website for details</a>.</li>
+                                <li>December 2017: I am honored to have been awarded the <a href="https://www.eecs.umich.edu/eecs/about/articles/2017/wiens-wellman-professor.html" target="blank">Morris Wellman Faculty Development Professorship</a>.</li>
+                                <li>September 2017: I am co-organizing a <a href="http://cse.umich.edu/Explore_Grad_Studies/" target="blank"> workshop</a> at the University of Michigan for undergraduates who want to find out more about opportunities for graduate studies in computer science and engineering.</li>
+                                <li>September 2017: Named to <a href="https://www.technologyreview.com/lists/innovators-under-35/2017/pioneer/jenna-wiens/" target="blank"> MIT Tech Review's list of innovators </a> for research in building data-driven models for predicting healthcare-associated infections.</li>
+                                <li>August 2017: Machine Learning for Healthcare has been sold out! Accepted papers are available online <a href="http://mucmd.org/" target="blank"> here</a>. Talks will be recorded and live streamed <a href="https://www.facebook.com/events/264627704035796" target="blank"> here</a>.</li>
+
+                                 <li>May 2017: Check out <a href="http://michamp.med.umich.edu/" target="blank"> MiCHAMP</a> the Michigan Integrated Center for Health Analytics and Medical Prediction.</li>
+                                <li>March 2016:  <a href="http://www.uofmhealth.org/news/archive/201603/don%E2%80%99t-let-bad-bugs-win-u-m-team-seeks-outsmart-c-difficile" target="blank"> Don't let the bad bugs win: U-M team seeks to outsmart C. difficile with new $9.2 mllion effort</a>. </li>
+                                <li>February 2016: Our paper on "Recognizing and Analyzing Ball Screen Defense in the NBA'' was selected as a finalist in the 2016 Research Papers Competition at the MIT Sloan Sports Analytics Conference.</li>
+                                <li>January 2016: I received a National Science Foundation CAREER Award <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553146&HistoricalAwards=false" target="blank"> Adaptable, Intelligible, and Actionable Models: Increasing the Utility of Machine Learning in Clinical Care </a>.</li>
+
+                            </ul>
+                        </div>
+
+                        <div id="Contact">
+                            <h2> Contact </h2>
+
+                        </div>
+                        
+                        
+                    </div><!-- end content -->
+                    
+                    
+                    <div class="clear"></div>
+                    
+                </div><!-- end main -->
+                
+            </div><!-- end container-inner -->
+            
+        </div><!-- end container -->
+        
+        <div id="footer">
+            <p>&copy; Jenna Wiens 2018.
+        </div>
+        
+    </body>
+    
+    
+    
 </html>
