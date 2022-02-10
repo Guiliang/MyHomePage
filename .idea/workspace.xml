@@ -139,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CV" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -217,6 +217,9 @@
       <updated>1525841233101</updated>
       <workItem from="1633918741123" duration="9310000" />
       <workItem from="1635238398527" duration="932000" />
+      <workItem from="1636389934786" duration="204000" />
+      <workItem from="1639048258713" duration="69000" />
+      <workItem from="1644459977064" duration="1505000" />
     </task>
     <servers />
   </component>
