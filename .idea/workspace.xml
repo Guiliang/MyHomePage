@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/slides&amp;poster/Neurips2022-presentation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -235,7 +234,7 @@
       <workItem from="1669540344772" duration="617000" />
       <workItem from="1673346519901" duration="1565000" />
       <workItem from="1673439132831" duration="1076000" />
-      <workItem from="1674613756333" duration="2238000" />
+      <workItem from="1674613756333" duration="3052000" />
     </task>
     <servers />
   </component>
