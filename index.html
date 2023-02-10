@@ -4,14 +4,14 @@
 <title> Guiliang Liu</title>
     <meta name="keywords" content="Guiliang Liu">
     <meta name="description" content="Guiliang Liu's home page">
-    <link rel="stylesheet" href="styles/bak-jemdoc.css" type="text/css" />
+    <link rel="stylesheet" href="styles/jemdoc.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style>
       body{
 		  margin: auto;
 		  padding-left: 2rem;
-		  padding-right: 1rem;
-		  width: 800px;
+		  padding-right: 2rem;
+		  width: 850px;
       }
       li{margin: 10px 0;
       }
@@ -25,27 +25,48 @@
       gtag('js', new Date());
       gtag('config', 'G-1KC12R840Y');
     </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-87320911-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
 
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div id="layout-menu" >
+        <a href="#">Home</a>
+        <a href="contents/biography.html">Biography</a>
+        <a href="contents/publications.html">Publications</a>
+	    <a href="#teaching">Teaching</a>
+<!--        <a href="#talks">Talks</a>-->
+        <a href="#students">Students</a>
+        <a href="contents/service.html">Service</a>
+<!--        <a href="">CV</a>-->
+    </div>
+</nav>
 
 <body id="container">
-<table id="info" width="720" border="0">
-<tbody>
-  <tr><td width="250"><p align="left"> <font face="Arial"><img src="images/cuhk-photo.jpg" border="0 " style="width:145px;height:220px;"></font> </p></td>
-    <td> <font size="6" face="Times"><strong>Guiliang Liu </strong></font>
-        </br>
-        </br>
-        <p><img src="images/name.png" height="50px" border=0 style="margin-bottom: 0px"></p>
-        <p><font size="5" face="Times"><strong> Assistant Professor </strong></font>
-        </p>
-        <p><a href="https://sds.cuhk.edu.cn/en"> <span class="s4">The School of Data Science (SDS)</span></a></p>
-        <p><a href="https://www.cuhk.edu.cn/en"> <span class="s4">The Chinese University of Hong Kong, Shenzhen</span></a></p>
+    <div id="layout-content" style="margin-top:20px">
+    <table id="info" width="720" border="0">
+        <tbody>
+          <tr><td width="250"><p align="center"> <font face="Arial"><img src="images/cuhk-photo.jpg" border="0 " style="width:145px;height:220px;"></font> </p></td>
+            <td> <font size="6" face="Times"><strong>Guiliang Liu </strong></font>
+                </br>
+                </br>
+                <p><img src="images/name.png" height="50px" border=0 style="margin-bottom: 0px"></p>
+                <p><font size="5" face="Times"><strong> Assistant Professor </strong></font>
+                </p>
+                <p><a href="https://sds.cuhk.edu.cn/en"> <span class="s4">The School of Data Science (SDS)</span></a></p>
+                <p><a href="https://www.cuhk.edu.cn/en"> <span class="s4">The Chinese University of Hong Kong, Shenzhen</span></a></p>
 
-    </td>
-  </tr>
-</tbody>
-</table>
-
+            </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
 <hr>
 
 <div id="Recruit">
@@ -61,169 +82,10 @@
     </div>
 </div>
 </br>
-<div id="about-me">
-    <h2> About Me </h2>
-    <p>I am currently working as a assistant professor at the Chinese University of Hong Kong, Shenzhen (CUHK-SZ).</p>
-    <p> <b> Research Interests:</b> Reinforcement Learning (RL) and the related topics, including, Inverse Constrained RL, Model-based RL, Interpretable RL, Agent Evaluation and Embedding. I have also studied applications on Natural Language Process (NLP), Sports analytic and Autonomous Driving. </p>
-    <p> <b> Working Experience and Education:</b> I have worked as a postdoctoral fellow at the University of Waterloo and Vector Institute with Prof.<a href="https://cs.uwaterloo.ca/~ppoupart/"> Pascal Poupart</a> (2020-2022). I received my Ph.D. degree at the School of Computing Science, Simon Fraser University under the supervision of Prof.<a href="http://www.cs.sfu.ca/~oschulte/"> Oliver Schulte</a> (2016-2020). I have finished a research internships at  Cognitive Computing Lab, Baidu Research (supervised by Prof.<a href="http://research.baidu.com/People/index-view?id=111"> Ping Li</a>). I received my Bachelor degree at the School of Computing Science and Engineering, South China University of Technology.
-<!--    <p><b>For my full cv, please visit <a href="https://github.com/Guiliang/homepage/blob/master/CV/Guiliang_CV.pdf">here(Updated 2022)</a></b></p>-->
-</div>
-</br>
-<div id="Paper-List">
-
-    <h2>Selected Publications</h2>
-    <ul class="ul2">
-        <li> Benchmarking Constraint Inference in Inverse Reinforcement Learning.
-            <br/> <b>Guiliang Liu</b>, Yudong Luo, Ashish Gaurav, Kasra Rezaee, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2023.
-            <br/> [<a href="https://openreview.net/pdf?id=vINj_Hv9szL">Paper (PDF)</a>](submitted version),
-            </li>
-        <li> Uncertainty-Aware Reinforcement Learning for Risk-Sensitive Player Evaluation in Sports Game.
-            <br/> <b>Guiliang Liu</b>, Yudong Luo, Oliver Schulte, Pascal Poupart.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2022.
-            <br/> [<a href="https://openreview.net/pdf?id=QoHSzxp7tSN">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2022-presentation.pdf">Slides</a>],
-            [Code (To be released)],
-            </li>
-        <li> Learning Object-Oriented Dynamics for Planning from Text.
-            <br/> <b>Guiliang Liu</b>, Ashutosh Adhikari, Amir-massoud Farahmand, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2022.
-            <br/> [<a href="https://openreview.net/pdf?id=B6EIcyp-Rb7">Paper (PDF)</a>],
-            [<a href="./slides&poster/ICLR2022-presentation.pdf">Slides</a>],
-            [<a href="https://github.com/Guiliang/OORL-public">Code</a>],
-        </li>
-        <li> Learning Tree Interpretation from Object Representation for Deep Reinforcement Learning.
-            <br/> <b>Guiliang Liu</b>, Xiangyu Sun, Oliver Schulte, Pascal Poupart.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2021.
-            <br/> [<a href="https://papers.nips.cc/paper/2021/file/a35fe7f7fe8217b4369a0af4244d1fca-Paper.pdf">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2021-presentation.pdf">Slides</a>],
-            [<a href="https://github.com/Guiliang/RAMi-public">Code</a>],
-        </li>
-        <li> Learning Agent Representations for Ice Hockey.
-            <br/> <b>Guiliang Liu</b>, Oliver Schulte, Pascal Poupart, Mike Rudd, Mehrsan Javan.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2020.
-            <br/> [<a href="https://proceedings.neurips.cc/paper/2020/file/d90e5b6628b4291225cba0bdc643c295-Paper.pdf">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2020-presentation.pdf">Slides</a>],
-            [<a href="https://studio.slideslive.com/web_recorder/share/20201017T201619Z__NeurIPS_posters__17464__learning-agent-representations?s=e8a84546-26bf-4206-b6bf-33d7de4eb963">Video</a>],
-            [<a href="https://github.com/Guiliang/player-embedding-ice-hockey">Code</a> ],
-        </li>
-    </ul>
-
-    <h2>Submitted Papers</h2>
-        <ul class="ul2">
-            <li>  An Alternative to Variance: Gini Deviation for Risk-averse Policy Gradient.
-            <br/> Yudong Luo, <b>Guiliang Liu</b>, Pascal Poupart, Yangchen Pan.
-            </li>
-            <li> Unimodal Training-Multimodal Prediction: Cross-modal Federated Learning with Hierarchical Aggregation.
-            <br/> Rongyu Zhang, Xiaowei Chi, <b>Guiliang Liu</b>, Wenyi Zhang, Fangxin Wang.
-            </li>
-            <li> Cluster-driven Federated Recommendation System with Biased Message Dropout.
-            <br/> Rongyu Zhang, Yun Chen, <b>Guiliang Liu</b>, Fangxin Wang.
-            </li>
-            <li> Prior and Prediction Inverse Kernel Transformer for Single Image Defocus Deblurring.
-            <br/> Peng Tang, zhiqiang xu, Xin Cao, <b>Guiliang Liu</b>, Tobias Lasser
-            </li>
-        </ul>
-    <h2>All Publications</h2>
-    <ul class="ul2">
-        <li> Benchmarking Constraint Inference in Inverse Reinforcement Learning.
-            <br/> <b>Guiliang Liu</b>, Yudong Luo, Ashish Gaurav, Kasra Rezaee, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2023.
-            <br/> [<a href="https://openreview.net/pdf?id=vINj_Hv9szL">Paper (PDF)</a>](submitted version),
-            </li>
-        <li> Learning Soft Constraints From Constrained Expert Demonstrations.
-            <br/> Ashish Gaurav, Kasra Rezaee, <b>Guiliang Liu</b>, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2023.
-            <br/> [<a href="https://openreview.net/pdf?id=8sSnD78NqTN">Paper (PDF)</a>] (submitted version),
-            </li>
-        <li> NTS-NOTEARS: Learning Nonparametric Temporal DAGs With Time-Series Data and Prior Knowledge.
-            <br/> Xiangyu Sun, Oliver Schulte, <b>Guiliang Liu</b>, Pascal Poupart.
-            <br/> International Conference on Artificial Intelligence and Statistics (AISTATS) 2023.
-            </li>
-        <li> Uncertainty-Aware Reinforcement Learning for Risk-Sensitive Player Evaluation in Sports Game.
-            <br/> <b>Guiliang Liu</b>, Yudong Luo, Oliver Schulte, Pascal Poupart.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2022.
-            <br/> [<a href="https://openreview.net/pdf?id=QoHSzxp7tSN">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2022-presentation.pdf">Slides</a>],
-            [Code (To be released)],
-            </li>
-        <li> Learning Object-Oriented Dynamics for Planning from Text.
-            <br/> <b>Guiliang Liu</b>, Ashutosh Adhikari, Amir-massoud Farahmand, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2022.
-            <br/> [<a href="https://openreview.net/pdf?id=B6EIcyp-Rb7">Paper (PDF)</a>],
-            [<a href="./slides&poster/ICLR2022-presentation.pdf">Slides</a>],
-            [<a href="https://github.com/Guiliang/OORL-public">Code</a>],
-        </li>
-        <li> Distributional Reinforcement Learning with Monotonic Splines.
-            <br/> Yudong Luo, <b>Guiliang Liu</b>, Haonan Duan, Oliver Schulte, Pascal Poupart.
-            <br/> International Conference on Learning Representations (ICLR) 2022.
-            <br/> [<a href="https://openreview.net/pdf?id=C8Ltz08PtBp">Paper (PDF)</a>],
-            [<a href="https://openreview.net/attachment?id=C8Ltz08PtBp&name=supplementary_material">Code</a>],
-        </li>
-        <li> Learning Tree Interpretation from Object Representation for Deep Reinforcement Learning.
-            <br/> <b>Guiliang Liu</b>, Xiangyu Sun, Oliver Schulte, Pascal Poupart.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2021.
-            <br/> [<a href="https://papers.nips.cc/paper/2021/file/a35fe7f7fe8217b4369a0af4244d1fca-Paper.pdf">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2021-presentation.pdf">Slides</a>],
-            [<a href="https://github.com/Guiliang/RAMi-public">Code</a>],
-        </li>
-        <li> Learning Agent Representations for Ice Hockey.
-            <br/> <b>Guiliang Liu</b>, Oliver Schulte, Pascal Poupart, Mike Rudd, Mehrsan Javan.
-            <br/> Advances in Neural Information Processing Systems (Neurips) 2020.
-            <br/> [<a href="https://proceedings.neurips.cc/paper/2020/file/d90e5b6628b4291225cba0bdc643c295-Paper.pdf">Paper (PDF)</a>],
-            [<a href="./slides&poster/Neurips2020-presentation.pdf">Slides</a>],
-            [<a href="https://studio.slideslive.com/web_recorder/share/20201017T201619Z__NeurIPS_posters__17464__learning-agent-representations?s=e8a84546-26bf-4206-b6bf-33d7de4eb963">Video</a>],
-            [<a href="https://github.com/Guiliang/player-embedding-ice-hockey">Code</a> ],
-        </li>
-        <li> An Advantage Actor-Critic Algorithm with Confidence Exploration for Open Information Extraction.
-            <br/> <b>Guiliang Liu</b>, Xu Li, Mingming Sun, Ping Li.
-            <br/> SIAM International Conference on Data Mining (SDM) 2020.
-            <br/> [<a href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611976236.25">Paper (PDF)</a>]
-        </li>
-        <li>Extracting Knowledge from Web Text with Monte Carlo Tree Search.
-            <br/> <b>Guiliang Liu</b>, Xu Li, Jiakang Wang, Mingming Sun, Ping Li.
-            <br/> The ACM Web Conference (WWW) 2020.
-            <br/> [<a href="https://dl.acm.org/doi/pdf/10.1145/3366423.3380010?download=true">Paper (PDF)</a>],
-            [<a href="./slides&poster/WWW2020-presentation.pdf">Slides</a>]
-        </li>
-        <li> Cracking the Black Box: Distilling Deep Sports Analytics.
-            <br/> Xiangyu Sun, Jack Davis, Oliver Schulte, <b>Guiliang Liu</b>.
-            <br/> SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2020.
-            <br/> [<a href="https://dl.acm.org/doi/pdf/10.1145/3394486.3403367">Paper (PDF)</a>],
-            [<a href="https://arxiv.org/abs/2006.04551">arXiv</a>],
-            [<a href="./slides&poster/KDD2020-presentation.pdf">Slides</a>],
-            [<a href="https://dl.acm.org/doi/abs/10.1145/3394486.3403367"> Video</a>],
-            [<a href="https://github.com/xiangyu-sun-789/Cracking-the-Black-Box-Distilling-Deep-Sports-Analytics">Code</a>]
-        </li>
-        <li> Deep soccer analytics: Learning an action-value function for evaluating soccer players.
-            <br/> <b>Guiliang Liu</b>, Yudong Luo, Oliver Schulte, and Tarak Kharrat.
-            <br/> ECML-PKDD 2020 Journal Track, published at Data Mining and Knowledge Discovery (DMKD).
-            <br/> [<a href="https://www.researchgate.net/publication/343122623_Deep_soccer_analytics_learning_an_action-value_function_for_evaluating_soccer_players#fullTextFileContent">Paper (PDF)</a>],
-            [<a href="./slides&poster/ECML2020-presentation.pdf">Slides</a>],
-        </li>
-        <li>Deep Reinforcement Learning in Ice Hockey for Context-Aware Player Evaluation.
-            <br/> <b>Guiliang Liu</b>, Oliver Schulte.
-            <br/> International Joint Conference on Artificial Intelligence (IJCAI) 2018.
-            <br/> [<a href="https://www.ijcai.org/proceedings/2018/0478.pdf">Paper (PDF)</a>],
-            [<a href="https://arxiv.org/abs/1805.11088">arXiv</a>],
-            [<a href="https://github.com/Guiliang/DRL-ice-hockey">Code</a>],
-            [<a href="./slides&poster/IJCAI2018-presentation.pdf">Slides</a>],
-        </li>
-        <li>Toward Interpretable Deep Reinforcement Learning with Linear Model U-Trees.
-            <br/> <b>Guiliang Liu</b>, Oliver Schulte, Wang Zhu,
-            <br/> European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Database (ECML-PKDD) 2018.
-            <br/>[<a href="http://www.ecmlpkdd2018.org/wp-content/uploads/2018/09/246.pdf">Paper (PDF)</a>],
-            [<a href="https://arxiv.org/abs/1807.05887">arXiv</a>],
-            [<a href="./slides&poster/ECML2018-presentation.pdf">Slides</a>],
-        </li>
-    </ul>
-</div>
-</br>
-<div id="Services">
-    <h2> Services </h2>
-    <b>Conference Reviewer:</b> Neurips, ICML, ICLR, AAAI, UAI.<br>
-    <b>Journal Reviewer:</b> Pattern Recognition, Artificial Intelligence, Data Mining and Knowledge Discovery.
-</div>
+<div id="research-interests">
+    <h2> Research Interests </h2>
+    </b> Reinforcement Learning (RL) and the related topics, including, Inverse Constrained RL, Model-based RL, Interpretable RL, Agent Evaluation and Embedding. I have also studied applications on Natural Language Process (NLP), Sports analytic and Autonomous Driving. </p>
+    </div>
 </br>
 <div id="Contact">
     <h2> Contact </h2>

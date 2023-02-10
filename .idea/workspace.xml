@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/new-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/bak-jemdoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/biography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bak-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2020-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jemdoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2023-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/bak-jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/bak-jemdoc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,12 +161,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/slides&poster",
+    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/contents",
     "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contents" />
       <recent name="$PROJECT_DIR$/slides&amp;poster" />
       <recent name="$PROJECT_DIR$/CV" />
       <recent name="$PROJECT_DIR$/images" />
@@ -248,7 +252,9 @@
       <workItem from="1673439132831" duration="1076000" />
       <workItem from="1674613756333" duration="3956000" />
       <workItem from="1675152581583" duration="403000" />
-      <workItem from="1675345994318" duration="5041000" />
+      <workItem from="1675345994318" duration="5376000" />
+      <workItem from="1676001286185" duration="2545000" />
+      <workItem from="1676016356533" duration="1564000" />
     </task>
     <servers />
   </component>
@@ -298,7 +304,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
           <line>23</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

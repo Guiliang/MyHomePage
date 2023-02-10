@@ -5,31 +5,12 @@ table#tlayout {
     border-collapse: separate;
     background: white;
 }
-/*
-body {
-	background: white;
-	padding-bottom: 8px;
-	margin: 0;
-}
-*/
-html {
-  background-color: #eeeeee;
-}
 
 body {
-  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
-  color: #000;
-  background-color: #ffffff;
-  text-align:left; /* for IE */
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left:  50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  max-width: 960px;
+	background: white;
+	font-family: Georgia, serif;
+	padding-bottom: 8px;
+	margin: 0;
 }
 
 #layout-menu {
@@ -111,12 +92,12 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	/*border-bottom: 3px double gray;*/
+	border-bottom: 3px double gray;
 }
 
 /* Reduce space if we begin the page with a title. */
 div#toptitle + h2, div#toptitle + h3 {
-	margin-top: 0em;
+	margin-top: -0.7em;
 }
 
 div#subtitle {
@@ -136,9 +117,9 @@ strong {
 
 
 h1, h2, h3 {
-	color: #000000;
+	color: #527bbd;
 	margin-top: 0.7em;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
 	padding-top: 0.5em;
@@ -163,7 +144,6 @@ h3 {
 	font-size: 110%;
 	border-bottom: none;
 }
-
 p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
@@ -225,8 +205,8 @@ p + ul, p + ol {
 	margin-top: -0.5em;
 }
 
-li {
-	margin-top:0.9em;
+li ul, li ol {
+	margin-top: -0.3em;
 }
 
 ol {
@@ -355,6 +335,19 @@ img.eqwl {
 	margin: 0;
 }
 
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border: 1px solid gray;
+}
+
 table + table {
     margin-top: 1em;
 }
@@ -372,3 +365,7 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/*li {*/
+/*	margin-top:1em;*/
+/*}*/
