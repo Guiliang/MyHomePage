@@ -9,7 +9,8 @@
       <change beforePath="$PROJECT_DIR$/bak-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2020-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2023-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/bak-jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/bak-jemdoc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/bak-jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jemdoc-bak-2023-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jemdoc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +255,7 @@
       <workItem from="1675152581583" duration="403000" />
       <workItem from="1675345994318" duration="5376000" />
       <workItem from="1676001286185" duration="2545000" />
-      <workItem from="1676016356533" duration="1564000" />
+      <workItem from="1676016356533" duration="1906000" />
     </task>
     <servers />
   </component>
