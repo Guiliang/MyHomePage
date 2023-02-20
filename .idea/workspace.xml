@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/contents/biography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/teaching.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bak-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2020-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/biography.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/biography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bak-2023-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/bak-jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jemdoc-bak-2023-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/jemdoc.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jemdoc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,16 +153,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/contents",
-    "run.code.analysis.last.selected.profile": "aDefault"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/galen-working-laptop/PycharmProjects/MyHomePage/contents&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/contents" />
@@ -255,7 +252,8 @@
       <workItem from="1675152581583" duration="403000" />
       <workItem from="1675345994318" duration="5376000" />
       <workItem from="1676001286185" duration="2545000" />
-      <workItem from="1676016356533" duration="1906000" />
+      <workItem from="1676016356533" duration="2715000" />
+      <workItem from="1676900449497" duration="706000" />
     </task>
     <servers />
   </component>
