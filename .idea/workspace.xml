@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/contents/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/students.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slides&amp;poster/ICLR2023-presentation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contents/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,20 +151,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/galen-working-laptop/PycharmProjects/MyHomePage/contents&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/slides&poster",
+    "run.code.analysis.last.selected.profile": "aDefault"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/contents" />
       <recent name="$PROJECT_DIR$/slides&amp;poster" />
+      <recent name="$PROJECT_DIR$/contents" />
       <recent name="$PROJECT_DIR$/CV" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/slides" />
@@ -248,7 +251,9 @@
       <workItem from="1675345994318" duration="5376000" />
       <workItem from="1676001286185" duration="2545000" />
       <workItem from="1676016356533" duration="2715000" />
-      <workItem from="1676900449497" duration="1037000" />
+      <workItem from="1676900449497" duration="2473000" />
+      <workItem from="1678166765354" duration="713000" />
+      <workItem from="1680746017334" duration="991000" />
     </task>
     <servers />
   </component>
