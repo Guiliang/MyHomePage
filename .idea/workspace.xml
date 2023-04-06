@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/slides&amp;poster/ICLR2023-presentation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +250,7 @@
       <workItem from="1676016356533" duration="2715000" />
       <workItem from="1676900449497" duration="2473000" />
       <workItem from="1678166765354" duration="713000" />
-      <workItem from="1680746017334" duration="991000" />
+      <workItem from="1680746017334" duration="2271000" />
     </task>
     <servers />
   </component>
