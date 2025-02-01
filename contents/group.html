@@ -1,0 +1,161 @@
+<html>
+<head>
+    <title> Guiliang Liu</title>
+    <meta name="keywords" content="Guiliang Liu">
+    <meta name="description" content="Guiliang Liu's home page">
+    <link rel="stylesheet" href="../styles/jemdoc.css" type="text/css" />
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <style>
+      body{
+		  margin: auto;
+		  padding-left: 2rem;
+		  padding-right: 2rem;
+		  width: 900px;
+      }
+      li{margin: 10px 0;
+      }
+    </style>
+    <title>Guiliang Liu</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KC12R840Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1KC12R840Y');
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-87320911-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div id="layout-menu" >
+        <a href="../index.html">Home</a>
+        <a href="./group.html">Group</a>
+        <a href="./publications.html">Publications</a>
+	    <a href="./teaching.html">Teaching</a>
+        <a href="./service.html">Service</a>
+        <a href="./biography.html">Biography</a>
+    </div>
+</nav>
+<h1> Embodied Decision-Making Group </h1>
+<body id="container">
+<div id="Mission">
+    <h4> Our Mission </h4>
+    Greetings! Our mission is advancing embodied decision-making systems by facilitating their reliability
+    and generalizability across diverse tasks and environments.
+    This requires seamless interaction between simulated environments, real-world deployment, and human feedback.
+    The following figures show our pipeline.
+    <br/>  <br/>
+    <p><img src="../images/pipeline.png" height="290px" border=0 style="margin-bottom: 0px"></p>
+    Specifically, our research involves the following aspects:
+    <ol class="ul2">
+        <li> <b>Simulated environments</b>:
+            We follow a generative simulation pipeline that enables the synthesis of infinite robot control data within simulated environments
+            and facilitates the scaling of this data to practical applications.
+            The detailed research topics includes:
+            <ul class="ul2">
+                <li> <font color="Brown">Sim2Real Data Engine</font>: [In-Submission]
+                <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]
+            </ul>
+        <li> <b>Real-world Deployment</b>:
+        We aim to address real-world problems, which means the skills and policies we develop <font color="Brown">must be validated through realistic applications</font>.
+        Ideally, these should be tested in real-world environments under everyday tasks to ensure their practicality and effectiveness.
+        In this context, working with hardware is crucial.
+        Our primary focus is on humanoid robots, specifically, dual-arm, legged robots equipped with dexterous hands.
+        The detailed research topics includes:
+        <ul class="ul2">
+                <li> <font color="Brown">Whole-body Locomotion</font>: [In-Submission]
+            <li> <font color="Brown">Whole-body Manipulation</font>: [Work in Process]
+        </ul>
+        <li> <b>Human Feedbacks</b>:
+        We believe that one of the primary goals of embodied decision-making is to serve humans,
+        meaning that the decisions made by robots must <font color="Brown">align with human expectations</font>.
+        To achieve this goal, we focus on incorporating human feedback into the decision-making process during robot control.
+        Such feedback signals mainly concern the <font color="Brown">safety and optimality</font> (i.e., task completion) of the decisions.
+        The detailed research topics includes:
+        <ul class="ul2">
+            <li> <font color="Brown">Inverse Constrained Reinforcement Learning (ICRL)</font>:
+                <a href="https://openreview.net/pdf?id=WUQsBiJqyP">TMLR</a>,
+                NeurIPS<a href="https://openreview.net/pdf?id=4mPiqh4pLb">[23]</a>,
+                ICLR<a href="https://openreview.net/pdf?id=vINj_Hv9szL">[23]</a>
+                <a href="https://openreview.net/pdf?id=ILYjDvUM6U">[24]</a>
+                <a href="https://openreview.net/pdf?id=0UvlnHgaii">[25-1]</a>
+                <a href="https://openreview.net/pdf?id=B2RXwASSpy">[25-2]</a>
+                ICML<a href="https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf">[24-1]</a>,
+                <a href="https://openreview.net/attachment?id=pkUl39b0in&name=pdf">[24-2]</a>
+            <li> <font color="Brown">Reinforcement Learning from Human Feedback (RLHF)</font>:
+            ICLR<a href="https://openreview.net/pdf?id=RKOAU5ti1y">[25]</a>
+        </ul>
+    </ol>
+    <hr>
+</div>
+
+<div id="Lab Lead">
+    <h4> Lab Lead </h4>
+    <ul class="ul2">
+        <li> <a href="https://guiliang.me/"> Guiliang Liu</a> (SDS-CUHKSZ).
+    </ul>
+</div>
+These works can't be done without our brilliant students!
+<hr>
+<div id="PhD Students">
+    <h4> PhD Students </h4>
+    <ul class="ul2">
+        <li> <a href="https://qiaoguanren.github.io/"> Guanren Qiao</a> (2023 Fall - Now, BS from BUPT).
+        <li> <a href="https://jasonxu1225.github.io/">Sheng Xu</a> (2023 Fall - Now, BS from NPU).
+        <li> <a href="https://bobyue0118.github.io/"> Bo Yue</a> (2024 Fall - Now, MS and BS from SJTU).
+        <li> Runyi Zhao (2024 Fall - Now, BS from WHU).
+        <li> Chaojie Li  (2025 Fall - Now, BS from HIT).
+        <li> Ang Li (2025 Fall - Now, BS from CQU).
+        <li> Ruixing Jin (2025 Fall - Now, BS from ZJU).
+    </ul>
+</div>
+
+<div id="Master Students">
+    <h4> Master Students </h4>
+    <ul class="ul2">
+        <li> Chujiao Wang (2024 Fall - Now, BS from SDU).
+        <li> Ruiyan Xu (2025 Fall - Now, BS from SDU).
+        <li> Hengming Zhang (2025 Fall - Now, BS from HIT).
+    </ul>
+    </div>
+
+<div id="Research Assistant">
+    <h4> Research Assistant </h4>
+    <ul class="ul2">
+        <li> Kaiyu Hu  (2024.9 - Now, MS at CUHKSZ).
+        <li> Sixu Lin (2024.8 - Now, BS at HIT).
+        <li> Runqing Miao (2024.7 - Now, MS at Tsinghua SIGS).
+<!--        <li> Junjie Zhao (2023.9 - Now).-->
+<!--        <li> Chaojie Li (2023.9 - Now, BS from HIT).-->
+<!--        <li> Mian Wei (2023.9 - Now, BS from ZUEL).-->
+<!--        <li> Siyu Zhou (2023.6 - 9).-->
+    </ul>
+    </div>
+
+<div id="Alumni">
+    <h4> Alumni </h4>
+    <ul class="ul2">
+        <li> Jieao Shi (2024.1 - 2024.9 Now, BS at CUHKSZ).
+        <li> Jiawei Yu (2024.1 - 2024.9 Now, BS at CUHKSZ).
+        <li> Guorui Quan (RA 2023.3 - 2024.3, Next position: PhD student at the University of Manchester).
+        <li> Rongxiao Qu (RA 2023.1 - 2024.3, Next position: Master student at EPFL).
+        <li> Ruiyuan Zhang  (RA 2023.3 - 2023.9)
+    </ul>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
