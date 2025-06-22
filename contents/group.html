@@ -15,6 +15,38 @@
       }
       li{margin: 10px 0;
       }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .image-box {
+      border-radius: 3px; /* Optional subtle rounding */
+      padding: 12px;
+      text-align: center;
+      width: 240px;
+      font-family: sans-serif;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Optional soft shadow */
+      background-color: #f9f9f9;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 2px;
+      display: block;
+    }
+
+    .image-title {
+      margin-top: 10px;
+      font-weight: bold;
+      background-color: #fff;
+      padding: 5px;
+      border-radius: 2px;
+    }
     </style>
     <title>Guiliang Liu</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,7 +77,7 @@
         <a href="./biography.html">Biography</a>
     </div>
 </nav>
-<h1> Embodied Decision-Making Group </h1>
+<h1> Embodied Decision-Making (EDeM) Lab </h1>
 <body id="container">
 <div id="Mission">
     <h4> Our Mission </h4>
@@ -62,7 +94,13 @@
             and facilitates the scaling of this data to practical applications.
             The detailed research topics includes:
             <ul class="ul2">
-                <li> <font color="Brown">Sim2Real Data Engine</font>: [In-Submission]
+                <li> <font color="Brown">Sim2Real Data Engine</font>:
+                <div class="image-box">
+                    <div class="image-title"><a href="https://edem-ai.github.io/dexscale.github.io/">DexScale (ICML-25)</a></div>
+                  <img src="../images/dexscale.png" alt="dexscale">
+                </div>
+
+
                 <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]
             </ul>
         <li> <b>Real-world Deployment</b>:

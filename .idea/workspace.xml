@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c4a179a-9592-4a71-aa20-7ba54f04aae4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/images/dexscale.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contents/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/contents/publications.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +49,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
@@ -164,14 +164,14 @@
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/styles",
+    "last_opened_file_path": "/Users/galen-working-laptop/PycharmProjects/MyHomePage/images",
     "run.code.analysis.last.selected.profile": "aDefault"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/slides&amp;poster" />
       <recent name="$PROJECT_DIR$/contents" />
       <recent name="$PROJECT_DIR$/CV" />
@@ -220,7 +220,6 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="homepage" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
