@@ -15,6 +15,38 @@
       }
       li{margin: 10px 0;
       }
+    .image-row {
+      display: flex;
+      justify-content: left;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .image-box {
+      border-radius: 3px; /* Optional subtle rounding */
+      padding: 12px;
+      text-align: center;
+      width: 230px;
+      font-family: sans-serif;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Optional soft shadow */
+      background-color: #f9f9f9;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 2px;
+      display: block;
+    }
+
+    .image-title {
+      margin-top: 10px;
+      font-weight: bold;
+      background-color: #fff;
+      padding: 5px;
+      border-radius: 2px;
+    }
     </style>
     <title>Guiliang Liu</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,7 +77,7 @@
         <a href="./biography.html">Biography</a>
     </div>
 </nav>
-<h1> Embodied Decision-Making Group </h1>
+<h1> Embodied Decision-Making (EDeM) Lab </h1>
 <body id="container">
 <div id="Mission">
     <h4> Our Mission </h4>
@@ -56,52 +88,96 @@
     <br/>  <br/>
     <p><img src="../images/pipeline.png" height="290px" border=0 style="margin-bottom: 0px"></p>
     Specifically, our research involves the following aspects:
-    <ol class="ul2">
+    <ul class="ul2">
         <li> <b>Simulated environments</b>:
             We follow a generative simulation pipeline that enables the synthesis of infinite robot control data within simulated environments
             and facilitates the scaling of this data to practical applications.
             The detailed research topics includes:
             <ul class="ul2">
-                <li> <font color="Brown">Sim2Real Data Engine</font>: [In-Submission]
-                <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]
+                <li> <font color="Brown">Sim2Real Data Engine</font>:
+<!--                    <div class="image-row">-->
+                        <div class="image-box">
+                            <div class="image-title"><a href="https://edem-ai.github.io/dexscale.github.io/">DexScale</a></div>
+                          <img src="../images/dexscale.png" alt="dexscale">
+                        </div>
+<!--                    </div>-->
+                </li>
+<!--                <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]</li>-->
             </ul>
-        <li> <b>Real-world Deployment</b>:
+        <li> <b>Sim2Real Deployment</b>:
         We aim to address real-world problems, which means the skills and policies we develop <font color="Brown">must be validated through realistic applications</font>.
-        Ideally, these should be tested in real-world environments under everyday tasks to ensure their practicality and effectiveness.
-        In this context, working with hardware is crucial.
+<!--        Ideally, these should be tested in real-world environments under everyday tasks to ensure their practicality and effectiveness.-->
+<!--        In this context, working with hardware is crucial.-->
         Our primary focus is on humanoid robots, specifically, dual-arm, legged robots equipped with dexterous hands.
         The detailed research topics includes:
         <ul class="ul2">
-                <li> <font color="Brown">Whole-body Locomotion</font>: [In-Submission]
+            <li> <font color="Brown">Leggy Robot Locomotion</font>:
+<!--                    <div class="image-row">-->
+                <div class="image-box">
+                    <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>
+                    <img src="../images/hwc-loco.png" alt="hwc-loco">
+                </div>
+<!--                    </div>-->
+            </li>
+            <li> <font color="Brown">Dexterous Manipulation</font>:
+                <div class="image-box">
+                    <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>
+                    <img src="../images/YOTO.png" alt="YOTO">
+                </div>
+                </li>
 <!--                <iframe src="https://www.bilibili.com/video/BV1n2QPYUELt"-->
 <!--                width="640" height="360"-->
 <!--                frameborder="0"-->
 <!--                allowfullscreen>-->
 <!--                </iframe>-->
-                <iframe src="//player.bilibili.com/player.html?aid=114155600222370&bvid=BV1n2QPYUELt&cid=28848423587&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>
-<!--                <iframe src="//player.bilibili.com/player.html?aid=对应aid&cid=对应cid&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"></iframe>-->
-                <li> <font color="Brown">Whole-body Manipulation</font>: [Work in Process]
+<!--                <iframe src="//player.bilibili.com/player.html?aid=114155600222370&bvid=BV1n2QPYUELt&cid=28848423587&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>-->
+<!--&lt;!&ndash;                <iframe src="//player.bilibili.com/player.html?aid=对应aid&cid=对应cid&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"></iframe>&ndash;&gt;-->
+<!--                <li> <font color="Brown">Whole-body Manipulation</font>: [Work in Process]-->
         </ul>
         <li> <b>Human Feedbacks</b>:
         We believe that one of the primary goals of embodied decision-making is to serve humans,
         meaning that the decisions made by robots must <font color="Brown">align with human expectations</font>.
         To achieve this goal, we focus on incorporating human feedback into the decision-making process during robot control.
-        Such feedback signals mainly concern the <font color="Brown">safety and optimality</font> (i.e., task completion) of the decisions.
+<!--        Such feedback signals mainly concern the <font color="Brown">safety and optimality</font> (i.e., task completion) of the decisions.-->
         The detailed research topics includes:
         <ul class="ul2">
             <li> <font color="Brown">Inverse Constrained Reinforcement Learning (ICRL)</font>:
-                <a href="https://openreview.net/pdf?id=WUQsBiJqyP">TMLR</a>,
-                NeurIPS<a href="https://openreview.net/pdf?id=4mPiqh4pLb">[23]</a>,
-                ICLR<a href="https://openreview.net/pdf?id=vINj_Hv9szL">[23]</a>
-                <a href="https://openreview.net/pdf?id=ILYjDvUM6U">[24]</a>
-                <a href="https://openreview.net/pdf?id=0UvlnHgaii">[25-1]</a>
-                <a href="https://openreview.net/pdf?id=B2RXwASSpy">[25-2]</a>
-                ICML<a href="https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf">[24-1]</a>,
-                <a href="https://openreview.net/attachment?id=pkUl39b0in&name=pdf">[24-2]</a>
+            <div class="image-row">
+                <div class="image-box">
+                    <div class="image-title"><a href="https://openreview.net/pdf?id=WUQsBiJqyP">ICRL Survey</a></div>
+                    <img src="../images/ICRL-pipeline.png" alt="ICRL-pipeline">
+                </div>
+                <div class="image-box">
+                    <div class="image-title"><a href="https://openreview.net/pdf?id=4mPiqh4pLb">Multi-Modal ICRL</a></div>
+                    <img src="../images/MM-ICRL.png" alt="MM-ICRL">
+                </div>
+                <div class="image-box">
+                    <div class="image-title"><a href="https://openreview.net/pdf?id=ILYjDvUM6U">Uncertainty-Aware ICRL</a></div>
+                    <img src="../images/UA-ICRL.jpg" alt="UA-ICRL">
+                </div>
+            </div>
+            </li>
+            Additionally, we have a series of works on ICRL, including those published at:
+            ICLR<a href="https://openreview.net/pdf?id=vINj_Hv9szL">[23]</a>
+            <a href="https://openreview.net/pdf?id=0UvlnHgaii">[25-1]</a>
+            <a href="https://openreview.net/pdf?id=B2RXwASSpy">[25-2]</a>
+            ICML<a href="https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf">[24-1]</a>,
+            <a href="https://openreview.net/attachment?id=pkUl39b0in&name=pdf">[24-2]</a>
             <li> <font color="Brown">Reinforcement Learning from Human Feedback (RLHF)</font>:
-            ICLR<a href="https://openreview.net/pdf?id=RKOAU5ti1y">[25]</a>
-        </ul>
-    </ol>
+                <div class="image-box">
+                    <div class="image-title"><a href="https://openreview.net/pdf?id=RKOAU5ti1y">UA-PbRL</a></div>
+                    <img src="../images/UA-PbRL.png" alt="UA-PbRL">
+                </div>
+            </li>
+            <!--            ICLR<a href="https://openreview.net/pdf?id=RKOAU5ti1y">[25]</a></li>-->
+            <li> <font color="Brown">Human Robot Interaction</font>:
+                <div class="image-box">
+                    <div class="image-title"><a href="https://qiaoguanren.github.io/SignBot-demo/">SignBot</a></div>
+                    <img src="../images/SignBot.png" alt="SignBot">
+                </div>
+            </li>
+            </ul>
+    </ul>
     <hr>
 </div>
 

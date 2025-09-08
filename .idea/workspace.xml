@@ -162,14 +162,18 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;/Users/galen-working-laptop/PycharmProjects/MyHomePage/styles&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;/Users/galen-working-laptop/PycharmProjects/MyHomePage&quot;,
+>>>>>>> e90226960295429d518c8a879650e795440b3404
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/slides&amp;poster" />
       <recent name="$PROJECT_DIR$/contents" />
       <recent name="$PROJECT_DIR$/CV" />
@@ -218,7 +222,6 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="homepage" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
