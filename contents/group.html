@@ -18,9 +18,9 @@
     .image-row {
       display: flex;
       justify-content: left;
-      gap: 20px;
+      gap: 10px;
       flex-wrap: wrap;
-      padding: 20px;
+      padding: 10px;
     }
 
     .image-box {
@@ -87,44 +87,66 @@
     The following figures show our pipeline.
     <br/>  <br/>
     <p><img src="../images/pipeline.png" height="290px" border=0 style="margin-bottom: 0px"></p>
-    Specifically, our research involves the following aspects:
+    Specifically, our featured projects include:
     <ul class="ul2">
-        <li> <b>Simulated environments</b>:
-            We follow a generative simulation pipeline that enables the synthesis of infinite robot control data within simulated environments
-            and facilitates the scaling of this data to practical applications.
-            The detailed research topics includes:
+        <li> <b>Generative Simulation for Robot Data Synthesization</b>:
+            We develop a data engine that generates unlimited robot control data in simulated environments and
+            enables its generalization to real-world applications.
             <ul class="ul2">
-                <li> <font color="Brown">Sim2Real Data Engine</font>:
-<!--                    <div class="image-row">-->
-                        <div class="image-box">
+<!--                <li>-->
+                    <div class="image-row">
+                    <div class="image-box">
                             <div class="image-title"><a href="https://edem-ai.github.io/dexscale.github.io/">DexScale</a></div>
                           <img src="../images/dexscale.png" alt="dexscale">
-                        </div>
+                    </div>
+                    <div class="image-box">
+                        <div class="image-title"><a href="https://dexforce.com/embodichain/index.html">Multi-Modal ICRL</a></div>
+                        <img src="../images/EmbodiChain.png" alt="MM-ICRL">
+                    </div>
+<!--                    <div class="image-box">-->
+<!--                        <div class="image-title"><a href="https://openreview.net/pdf?id=ILYjDvUM6U">Uncertainty-Aware ICRL</a></div>-->
+<!--                        <img src="../images/UA-ICRL.jpg" alt="UA-ICRL">-->
 <!--                    </div>-->
-                </li>
+            </div>
+<!--                    </div>-->
+<!--                </li>-->
 <!--                <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]</li>-->
             </ul>
         <li> <b>Sim2Real Deployment</b>:
-        We aim to address real-world problems, which means the skills and policies we develop <font color="Brown">must be validated through realistic applications</font>.
+        We aim to address real-world problems, which means the skills and policies we develop <font color="Brown">
+            must be validated through realistic applications</font> across multiple applications.
 <!--        Ideally, these should be tested in real-world environments under everyday tasks to ensure their practicality and effectiveness.-->
 <!--        In this context, working with hardware is crucial.-->
-        Our primary focus is on humanoid robots, specifically, dual-arm, legged robots equipped with dexterous hands.
-        The detailed research topics includes:
+<!--        Our primary focus is on humanoid robots, specifically, dual-arm, legged robots equipped with dexterous hands.-->
+<!--        The detailed research topics includes:-->
         <ul class="ul2">
-            <li> <font color="Brown">Leggy Robot Locomotion</font>:
+<!--            <li> <font color="Brown">Leggy Robot Locomotion</font>:-->
 <!--                    <div class="image-row">-->
-                <div class="image-box">
-                    <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>
-                    <img src="../images/hwc-loco.png" alt="hwc-loco">
-                </div>
-<!--                    </div>-->
-            </li>
-            <li> <font color="Brown">Dexterous Manipulation</font>:
-                <div class="image-box">
-                    <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>
-                    <img src="../images/YOTO.png" alt="YOTO">
-                </div>
-                </li>
+<!--                <div class="image-box">-->
+<!--                    <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>-->
+<!--                    <img src="../images/hwc-loco.png" alt="hwc-loco">-->
+<!--                </div>-->
+                <div class="image-row">
+                    <div class="image-box">
+                        <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>
+                        <img src="../images/hwc-loco.png" alt="hwc-loco">
+                    </div>
+                    <div class="image-box">
+                        <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>
+                        <img src="../images/YOTO.png" alt="YOTO">
+                    </div>
+                    <div class="image-box">
+                        <div class="image-title"><a href="https://qiaoguanren.github.io/SignBot-demo/">SignBot</a></div>
+                        <img src="../images/SignBot.png" alt="SignBot">
+                    </div>
+                    </div>
+<!--            </li>-->
+<!--            <li> <font color="Brown">Dexterous Manipulation</font>:-->
+<!--                <div class="image-box">-->
+<!--                    <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>-->
+<!--                    <img src="../images/YOTO.png" alt="YOTO">-->
+<!--                </div>-->
+<!--                </li>-->
 <!--                <iframe src="https://www.bilibili.com/video/BV1n2QPYUELt"-->
 <!--                width="640" height="360"-->
 <!--                frameborder="0"-->
@@ -135,11 +157,11 @@
 <!--                <li> <font color="Brown">Whole-body Manipulation</font>: [Work in Process]-->
         </ul>
         <li> <b>Human Feedbacks</b>:
-        We believe that one of the primary goals of embodied decision-making is to serve humans,
-        meaning that the decisions made by robots must <font color="Brown">align with human expectations</font>.
-        To achieve this goal, we focus on incorporating human feedback into the decision-making process during robot control.
+<!--        We believe that one of the primary goals of embodied decision-making is to serve humans,-->
+<!--        meaning that the decisions made by robots must <font color="Brown">align with human expectations</font>.-->
+        To <font color="Brown">align robot behavior with human expectations</font>, we incorporate human feedback into the decision-making process during robot control.
 <!--        Such feedback signals mainly concern the <font color="Brown">safety and optimality</font> (i.e., task completion) of the decisions.-->
-        The detailed research topics includes:
+<!--        The detailed research topics includes:-->
         <ul class="ul2">
             <li> <font color="Brown">Inverse Constrained Reinforcement Learning (ICRL)</font>:
             <div class="image-row">
@@ -170,12 +192,12 @@
                 </div>
             </li>
             <!--            ICLR<a href="https://openreview.net/pdf?id=RKOAU5ti1y">[25]</a></li>-->
-            <li> <font color="Brown">Human Robot Interaction</font>:
-                <div class="image-box">
-                    <div class="image-title"><a href="https://qiaoguanren.github.io/SignBot-demo/">SignBot</a></div>
-                    <img src="../images/SignBot.png" alt="SignBot">
-                </div>
-            </li>
+<!--            <li> <font color="Brown">Human Robot Interaction</font>:-->
+<!--                <div class="image-box">-->
+<!--                    <div class="image-title"><a href="https://qiaoguanren.github.io/SignBot-demo/">SignBot</a></div>-->
+<!--                    <img src="../images/SignBot.png" alt="SignBot">-->
+<!--                </div>-->
+<!--            </li>-->
             </ul>
     </ul>
     <hr>
