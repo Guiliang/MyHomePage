@@ -9,45 +9,218 @@
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
     <style>
       body{
-		  margin: auto;
-		  padding-left: 2rem;
-		  padding-right: 2rem;
-		  width: 900px;
+        margin: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: min(1040px, calc(100% - 32px));
+        color: #1d2733;
+        line-height: 1.55;
       }
-      li{margin: 10px 0;
+      li{margin: 10px 0;}
+
+      h1, h4 {
+        letter-spacing: 0;
       }
-    .image-row {
-      display: flex;
-      justify-content: left;
-      gap: 10px;
-      flex-wrap: wrap;
-      padding: 10px;
-    }
 
-    .image-box {
-      border-radius: 3px; /* Optional subtle rounding */
-      padding: 12px;
-      text-align: center;
-      width: 230px;
-      font-family: sans-serif;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Optional soft shadow */
-      background-color: #f9f9f9;
-    }
+      .lab-hero {
+        padding: 22px 0 14px;
+        border-bottom: 1px solid #d9e1ea;
+      }
 
-    .image-box img {
-      width: 100%;
-      height: auto;
-      border-radius: 2px;
-      display: block;
-    }
+      .lab-kicker {
+        color: #7a3f1d;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.86rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
 
-    .image-title {
-      margin-top: 10px;
-      font-weight: bold;
-      background-color: #fff;
-      padding: 5px;
-      border-radius: 2px;
-    }
+      .lab-hero h1 {
+        border-bottom: 0;
+        color: #111827;
+        font-size: 2.05rem;
+        line-height: 1.16;
+        margin: 8px 0 12px;
+        padding: 0;
+      }
+
+      .lab-hero p {
+        color: #344154;
+        font-size: 1.04rem;
+        max-width: 850px;
+      }
+
+      .impact-strip {
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 18px 0 10px;
+      }
+
+      .impact-item {
+        background: #f7f9fc;
+        border: 1px solid #e1e8f0;
+        border-radius: 8px;
+        padding: 14px 16px;
+      }
+
+      .impact-item b {
+        color: #173f6f;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.96rem;
+        margin-bottom: 4px;
+      }
+
+      .impact-item span {
+        color: #4b5565;
+        font-size: 0.93rem;
+      }
+
+      .mission-card {
+        background: #fbfcfe;
+        border: 1px solid #dfe7ef;
+        border-radius: 8px;
+        margin: 22px 0;
+        padding: 18px;
+      }
+
+      .pipeline-image {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 8px;
+        margin: 14px 0 4px;
+        padding: 10px;
+      }
+
+      .pipeline-image img {
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+
+      .section-intro {
+        color: #445065;
+        margin-bottom: 14px;
+      }
+
+      .research-section {
+        border-top: 1px solid #d9e1ea;
+        padding: 22px 0 8px;
+      }
+
+      .research-section h4 {
+        border-bottom: 0;
+        color: #13233a;
+        font-size: 1.22rem;
+        margin: 0 0 6px;
+        padding: 0;
+      }
+
+      .theme-label {
+        color: #7a3f1d;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .project-grid {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin: 16px 0 6px;
+      }
+
+      .project-card {
+        background: #ffffff;
+        border: 1px solid #dfe7ef;
+        border-radius: 8px;
+        box-shadow: 0 10px 24px rgba(31, 45, 61, 0.07);
+        color: #2d3748;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      }
+
+      .project-card:hover {
+        border-bottom: 1px solid #b9c9dc;
+        border-color: #b9c9dc;
+        box-shadow: 0 14px 30px rgba(31, 45, 61, 0.12);
+        transform: translateY(-2px);
+      }
+
+      .project-card img {
+        background: #eef2f7;
+        box-sizing: border-box;
+        display: block;
+        height: 210px;
+        object-fit: contain;
+        padding: 10px;
+        width: 100%;
+      }
+
+      .project-body {
+        padding: 13px 14px 15px;
+      }
+
+      .project-title {
+        color: #12345b;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      .project-impact {
+        color: #4b5565;
+        display: block;
+        font-size: 0.92rem;
+        line-height: 1.42;
+      }
+
+      .lab-note {
+        background: #fff8ed;
+        border-left: 4px solid #b86e2d;
+        color: #443326;
+        margin: 20px 0;
+        padding: 12px 14px;
+      }
+
+      @media (max-width: 860px) {
+        body {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          width: calc(100% - 18px);
+        }
+
+        .impact-strip,
+        .project-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .project-card img {
+          height: 220px;
+        }
+
+        #layout-menu {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          white-space: normal;
+        }
+
+        #layout-menu a {
+          display: inline-block;
+          margin-left: 0;
+          margin-right: 1.1em;
+        }
+      }
     </style>
     <title>Guiliang Liu</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -68,6 +241,7 @@
     </script>
   </head>
 
+<body id="container">
 <nav class="navbar navbar-dark navbar-expand-lg">
     <div id="layout-menu" >
         <a href="../index.html">Home</a>
@@ -78,120 +252,160 @@
         <a href="./biography.html">Biography</a>
     </div>
 </nav>
-<body id="container">
-<h1> Embodied Decision-Making (EDeM) Lab </h1>
-<div id="Mission">
+<div class="lab-hero">
+    <div class="lab-kicker">Embodied Decision-Making Research Group</div>
+    <h1> Embodied Decision-Making (EDeM) Lab </h1>
+    <p>
+        We build embodied agents that can learn broadly, act reliably, and transfer from simulated worlds into
+        physical environments. Our work connects generative robot data, sim-to-real deployment, and human feedback
+        so that decision-making systems become more capable, safer, and useful outside the lab.
+    </p>
+    <div class="impact-strip">
+        <div class="impact-item">
+            <b>Scalable robot data</b>
+            <span>Creating richer training pipelines for embodied policies when real-world collection is expensive.</span>
+        </div>
+        <div class="impact-item">
+            <b>Real deployment</b>
+            <span>Validating skills on humanoid, dexterous, and interactive robots in realistic tasks.</span>
+        </div>
+        <div class="impact-item">
+            <b>Human alignment</b>
+            <span>Using feedback and constraints to make robot behavior safer, more interpretable, and trustworthy.</span>
+        </div>
+    </div>
+</div>
+
+<div id="Mission" class="mission-card">
     <h4> Our Mission </h4>
-    Greetings! Our mission is advancing embodied decision-making systems by facilitating their reliability
-    and generalizability across diverse tasks and environments.
-    This requires seamless interaction between simulated environments, real-world deployment, and human feedback.
-    The following figures show our pipeline.
-    <br/>  <br/>
-    <p><img src="../images/pipeline.png" height="290px" border=0 style="margin-bottom: 0px"></p>
-    Specifically, our featured projects include:
-    <ul class="ul2">
-        <li> <b>Generative Simulation for Robot Data Synthesization</b>:
-            We develop a data engine that generates unlimited robot control data in simulated environments and
-            enables its generalization to real-world applications.
-            <ul class="ul2">
-<!--                <li>-->
-                <div class="image-row">
-                    <div class="image-box">
-                        <div class="image-title"><a href="https://dexforce.com/embodichain/index.html">EmbodiChain</a></div>
-                        <img src="../images/EmbodiChain.png" alt="Embodichain">
-                    </div>
-                    <div class="image-box">
-                            <div class="image-title"><a href="https://edem-ai.github.io/dexscale.github.io/">DexScale</a></div>
-                          <img src="../images/dexscale.png" alt="dexscale">
-                    </div>
-                    <div class="image-box">
-                        <div class="image-title"><a href="https://edem-ai.github.io/sim2realvla.github.io/">Sim2Real VLA</a></div>
-                        <img src="../images/sim2real-vla.png" alt="sim2real-vla.png">
-                    </div>
-                </div>
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li> <font color="Brown">Agentic Skill Discovery</font>: [Work in Process]</li>-->
-            </ul>
-        <li> <b>Sim2Real Deployment</b>:
-        We aim to address real-world problems, which means the skills and policies we develop <font color="Brown">
-            must be validated through realistic applications</font> across multiple applications.
-<!--        Ideally, these should be tested in real-world environments under everyday tasks to ensure their practicality and effectiveness.-->
-<!--        In this context, working with hardware is crucial.-->
-<!--        Our primary focus is on humanoid robots, specifically, dual-arm, legged robots equipped with dexterous hands.-->
-<!--        The detailed research topics includes:-->
-        <ul class="ul2">
-<!--            <li> <font color="Brown">Leggy Robot Locomotion</font>:-->
-<!--                    <div class="image-row">-->
+    <p>
+        Our mission is advancing embodied decision-making systems by facilitating their reliability and
+        generalizability across diverse tasks and environments. This requires tight interaction between
+        simulated environments, real-world deployment, and human feedback.
+    </p>
+<!--    <div class="pipeline-image">-->
+        <img src="../images/pipeline.png" alt="EDeM Lab research pipeline">
+<!--    </div>-->
+</div>
+
+<div class="lab-note">
+    The following projects are developed by EDeM Lab members and collaborators. Together they push toward
+    practical embodied intelligence: agents that can reason, learn, move, manipulate, and respond to human intent.
+</div>
+
+<div class="research-section">
+    <div class="theme-label">Foundation</div>
+    <h4>Generative Simulation for Robot Data Synthesization</h4>
+    <p class="section-intro">
+        We develop data engines that generate robot control data in simulated environments and enable
+        generalization to real-world applications.
+    </p>
+    <div class="project-grid">
+        <a class="project-card" href="https://dexforce.com/embodichain/index.html">
+            <img src="../images/EmbodiChain.png" alt="EmbodiChain project preview">
+            <span class="project-body">
+                <span class="project-title">EmbodiChain</span>
+                <span class="project-impact">Builds richer chains of embodied skills for training general-purpose robot behavior.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://edem-ai.github.io/dexscale.github.io/">
+            <img src="../images/dexscale.png" alt="DexScale project preview">
+            <span class="project-body">
+                <span class="project-title">DexScale</span>
+                <span class="project-impact">Scales dexterous manipulation data so policies can learn diverse hand-object interactions.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://edem-ai.github.io/sim2realvla.github.io/">
+            <img src="../images/sim2real-vla.png" alt="Sim2Real VLA project preview">
+            <span class="project-body">
+                <span class="project-title">Sim2Real VLA</span>
+                <span class="project-impact">Bridges vision-language-action models from simulated learning to real robotic tasks.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://edem-ai.github.io/AgentChord/">
+            <img src="../images/AgentChord.png" alt="AgentChord project preview">
+            <span class="project-body">
+                <span class="project-title">AgentChord</span>
+                <span class="project-impact">Coordinates agentic capabilities into more compositional embodied decision-making workflows.</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+<div class="research-section">
+    <div class="theme-label">Deployment</div>
+    <h4>Sim2Real Deployment</h4>
+    <p class="section-intro">
+        We address real-world problems by validating learned skills and policies through realistic applications
+        across humanoid locomotion, dexterous manipulation, robot communication, and 4D interaction.
+    </p>
+    <div class="project-grid">
+        <a class="project-card" href="https://simonlinsx.github.io/HWC_Loco/">
+            <img src="../images/hwc-loco.png" alt="HWC-Loco project preview">
+            <span class="project-body">
+                <span class="project-title">HWC-Loco</span>
+                <span class="project-impact">Advances whole-body humanoid locomotion for robust movement in physical environments.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://hnuzhy.github.io/projects/YOTO/">
+            <img src="../images/YOTO.png" alt="YOTO project preview">
+            <span class="project-body">
+                <span class="project-title">YOTO</span>
+                <span class="project-impact">Improves task-driven robot manipulation with adaptable policies for real-world use.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://qiaoguanren.github.io/SignBot-demo/">
+            <img src="../images/SignBot.png" alt="SignBot project preview">
+            <span class="project-body">
+                <span class="project-title">SignBot</span>
+                <span class="project-impact">Explores embodied communication, making robots more expressive in human-facing settings.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://simonlinsx.github.io/RoboFlow4D_Page/">
+            <img src="../images/RoboFlow4D.png" alt="RoboFlow4D project preview">
+            <span class="project-body">
+                <span class="project-title">RoboFlow4D</span>
+                <span class="project-impact">Models 4D scene flow for robots, supporting dynamic perception and action in changing worlds.</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+<div class="research-section">
+    <div class="theme-label">Alignment</div>
+    <h4>Human Feedbacks</h4>
+    <p class="section-intro">
+        To align robot behavior with human expectations, we incorporate human feedback and inferred constraints
+        into the decision-making process during robot control.
+    </p>
+    <div class="project-grid">
+        <a class="project-card" href="https://edem-ai.github.io/FTC-website/">
+            <img src="../images/Focus_Then_Contact.png" alt="Focus-Then-Contact project preview">
+            <span class="project-body">
+                <span class="project-title">Focus-Then-Contact</span>
+                <span class="project-impact">Links visual focus with contact-rich interaction, improving how robots attend before they act.</span>
+            </span>
+        </a>
+        <a class="project-card" href="https://openreview.net/pdf?id=4mPiqh4pLb">
+            <img src="../images/MM-ICRL.png" alt="Multi-Modal ICRL project preview">
+            <span class="project-body">
+                <span class="project-title">Multi-Modal ICRL</span>
+                <span class="project-impact">Learns constraints from richer feedback signals, improving safety under diverse observations.</span>
+            </span>
+        </a>
+    </div>
+<!--            Additionally, we have a series of works on ICRL, including those published at:-->
+<!--            ICLR<a href="https://openreview.net/pdf?id=vINj_Hv9szL">[23]</a>-->
+<!--            <a href="https://openreview.net/pdf?id=0UvlnHgaii">[25-1]</a>-->
+<!--            <a href="https://openreview.net/pdf?id=B2RXwASSpy">[25-2]</a>-->
+<!--            ICML<a href="https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf">[24-1]</a>,-->
+<!--            <a href="https://openreview.net/attachment?id=pkUl39b0in&name=pdf">[24-2]</a>-->
+<!--            <li> <font color="Brown">Reinforcement Learning from Human Feedback (RLHF)</font>:-->
 <!--                <div class="image-box">-->
-<!--                    <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>-->
-<!--                    <img src="../images/hwc-loco.png" alt="hwc-loco">-->
+<!--                    <div class="image-title"><a href="https://openreview.net/pdf?id=RKOAU5ti1y">UA-PbRL</a></div>-->
+<!--                    <img src="../images/UA-PbRL.png" alt="UA-PbRL">-->
 <!--                </div>-->
-                <div class="image-row">
-                    <div class="image-box">
-                        <div class="image-title"><a href="https://simonlinsx.github.io/HWC_Loco/">HWC-Loco</a></div>
-                        <img src="../images/hwc-loco.png" alt="hwc-loco">
-                    </div>
-                    <div class="image-box">
-                        <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>
-                        <img src="../images/YOTO.png" alt="YOTO">
-                    </div>
-                    <div class="image-box">
-                        <div class="image-title"><a href="https://qiaoguanren.github.io/SignBot-demo/">SignBot</a></div>
-                        <img src="../images/SignBot.png" alt="SignBot">
-                    </div>
-                    </div>
 <!--            </li>-->
-<!--            <li> <font color="Brown">Dexterous Manipulation</font>:-->
-<!--                <div class="image-box">-->
-<!--                    <div class="image-title"><a href="https://hnuzhy.github.io/projects/YOTO/">YOTO</a></div>-->
-<!--                    <img src="../images/YOTO.png" alt="YOTO">-->
-<!--                </div>-->
-<!--                </li>-->
-<!--                <iframe src="https://www.bilibili.com/video/BV1n2QPYUELt"-->
-<!--                width="640" height="360"-->
-<!--                frameborder="0"-->
-<!--                allowfullscreen>-->
-<!--                </iframe>-->
-<!--                <iframe src="//player.bilibili.com/player.html?aid=114155600222370&bvid=BV1n2QPYUELt&cid=28848423587&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"> </iframe>-->
-<!--&lt;!&ndash;                <iframe src="//player.bilibili.com/player.html?aid=对应aid&cid=对应cid&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="450"></iframe>&ndash;&gt;-->
-<!--                <li> <font color="Brown">Whole-body Manipulation</font>: [Work in Process]-->
-        </ul>
-        <li> <b>Human Feedbacks</b>:
-<!--        We believe that one of the primary goals of embodied decision-making is to serve humans,-->
-<!--        meaning that the decisions made by robots must <font color="Brown">align with human expectations</font>.-->
-        To <font color="Brown">align robot behavior with human expectations</font>, we incorporate human feedback into the decision-making process during robot control.
-<!--        Such feedback signals mainly concern the <font color="Brown">safety and optimality</font> (i.e., task completion) of the decisions.-->
-<!--        The detailed research topics includes:-->
-        <ul class="ul2">
-            <li> <font color="Brown">Inverse Constrained Reinforcement Learning (ICRL)</font>:
-            <div class="image-row">
-                <div class="image-box">
-                    <div class="image-title"><a href="https://openreview.net/pdf?id=WUQsBiJqyP">ICRL Survey</a></div>
-                    <img src="../images/ICRL-pipeline.png" alt="ICRL-pipeline">
-                </div>
-                <div class="image-box">
-                    <div class="image-title"><a href="https://openreview.net/pdf?id=4mPiqh4pLb">Multi-Modal ICRL</a></div>
-                    <img src="../images/MM-ICRL.png" alt="MM-ICRL">
-                </div>
-                <div class="image-box">
-                    <div class="image-title"><a href="https://openreview.net/pdf?id=ILYjDvUM6U">Uncertainty-Aware ICRL</a></div>
-                    <img src="../images/UA-ICRL.jpg" alt="UA-ICRL">
-                </div>
-            </div>
-            </li>
-            Additionally, we have a series of works on ICRL, including those published at:
-            ICLR<a href="https://openreview.net/pdf?id=vINj_Hv9szL">[23]</a>
-            <a href="https://openreview.net/pdf?id=0UvlnHgaii">[25-1]</a>
-            <a href="https://openreview.net/pdf?id=B2RXwASSpy">[25-2]</a>
-            ICML<a href="https://openreview.net/attachment?id=Ax90jQPbgF&name=pdf">[24-1]</a>,
-            <a href="https://openreview.net/attachment?id=pkUl39b0in&name=pdf">[24-2]</a>
-            <li> <font color="Brown">Reinforcement Learning from Human Feedback (RLHF)</font>:
-                <div class="image-box">
-                    <div class="image-title"><a href="https://openreview.net/pdf?id=RKOAU5ti1y">UA-PbRL</a></div>
-                    <img src="../images/UA-PbRL.png" alt="UA-PbRL">
-                </div>
-            </li>
             <!--            ICLR<a href="https://openreview.net/pdf?id=RKOAU5ti1y">[25]</a></li>-->
 <!--            <li> <font color="Brown">Human Robot Interaction</font>:-->
 <!--                <div class="image-box">-->
@@ -199,10 +413,8 @@
 <!--                    <img src="../images/SignBot.png" alt="SignBot">-->
 <!--                </div>-->
 <!--            </li>-->
-            </ul>
-    </ul>
-    <hr>
 </div>
+<hr>
 
 <!--<div id="Group Lead">-->
 <!--    <h4> Group Lead </h4>-->
@@ -267,7 +479,3 @@
 </body>
 
 </html>
-
-
-
-
