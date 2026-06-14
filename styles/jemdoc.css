@@ -612,30 +612,39 @@ ul > li::marker {
     font-size: 0.94rem;
 }
 
-#Paper-List > br + b,
-#Paper-List > b:not(:first-of-type) {
-    display: inline-flex;
-    margin-top: 1.4rem;
-    padding: 5px 11px;
-    border-radius: 999px;
-    background: var(--accent-soft);
-    color: var(--accent);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 0.9rem;
-}
-
-#Paper-List > ul {
-    padding-left: 0;
-    list-style: none;
-}
-
-#Paper-List > ul > li {
-    margin: 12px 0;
-    padding: 16px 18px;
+.publication-year {
+    margin: 18px 0;
+    padding: 18px 20px;
     background: var(--surface-soft);
     border: 1px solid var(--line);
     border-left: 4px solid var(--brand);
     border-radius: 10px;
+}
+
+.publication-year h3 {
+    margin: 0 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+    color: var(--accent);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.08rem;
+}
+
+#Paper-List .publication-year > ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+#Paper-List .publication-year > ul > li {
+    margin: 0;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+#Paper-List .publication-year > ul > li:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
 }
 
 .image-row {
